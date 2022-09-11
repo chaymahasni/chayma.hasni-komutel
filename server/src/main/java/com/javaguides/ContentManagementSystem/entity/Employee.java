@@ -22,14 +22,14 @@ public class Employee {
     @Column (name = "pays")
     private String pays ;
     @Column (name = "telephone")
-    private int telephone ;
+    private String telephone ;
     @Column (name = "debut_contact")
     private Date debut_contact ;
 
     public Employee() {
     }
 
-    public Employee(long id, String nom, String address, String ville, String pays, int telephone, Date debut_contact) {
+    public Employee(long id, String nom, String address, String ville, String pays, String telephone, Date debut_contact) {
         this.id = id;
         this.nom = nom;
         this.address = address;
@@ -79,11 +79,11 @@ public class Employee {
         this.pays = pays;
     }
 
-    public int getTelephone() {
+    public String getTelephone() {
         return telephone;
     }
 
-    public void setTelephone(int telephone) {
+    public void setTelephone(String telephone) {
         this.telephone = telephone;
     }
 

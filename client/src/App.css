@@ -36,3 +36,9 @@
     transform: rotate(360deg);
   }
 }
+.label {
+  color: white;
+  padding: 8px;
+  font-family: Arial;
+}
+.labcolor {background-color: #2196F3;} /* Blue */
